@@ -1,0 +1,44 @@
+.imagem{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  width: auto;
+  margin: auto;
+
+}
+
+html {
+  font-size: 16px;
+  background-color: rgb(129, 97, 53);
+  color: rgb(15, 10, 5);
+}
+#title{
+  text-align: center;
+}
+#img-caption {
+  font-size: 24px;
+}
+
+
+#img-div {
+  background: rgb(215, 177, 81);
+  padding: 8px;
+  margin: 5px;
+}
+
+#tribute-info {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  text-align: justify;
+
+}
+
+#tribute-link{
+  color:rgb(255, 221, 0);
+}
+
+h3 {
+  text-align: center;
+}
