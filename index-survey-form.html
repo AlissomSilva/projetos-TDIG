@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<cabecalho>
+  <h1 id="title">
+    Formulário Teste
+  </h1>
+  <p id="description">
+    Este é um formulário de pesquisa teste com o intuito de melhorar o conhecimento em Html e css
+  </p></cabecalho>
+<form id="survey-form">
+  <label id="name-label">Nome</label>
+  <input id="name" required type="text" placeholder="Digite seu nome"></input>
+  <label id="email-label">E-mail</label>
+  <input id="email" required type="email" placeholder="Digite seu E-mail"></input><label id="number-label">Idade</label>
+  <input id="number" required type="number" min="0" max="150" placeholder="Idade"></input>
+
+  <label>Qual das opções melhor descreve você?</label>
+  <select id="dropdown">
+    <option>Dedicado(a)</option>
+    <option>Relaxado(a)</option>
+    <option>Impulsivo(a)</option>
+    <option>Sonhador(a)</option>
+  </select>
+
+  <h4>O que você faz da vida</h4>
+  <label><input type="radio" value="sim" name="button-r" class="button-radio" checked>Estudos</label>
+  <label><input type="radio" value="talvez" name="button-r" class="button-radio">Trabalho</label>
+  <label><input type="radio" value="nao" name="button-r" class="button-radio">Joga</label></input>
+  <h4>O que você gostaria de melhorar?</h4>
+  <label><input type="CHECKBOX" value="1" name="but" class="check"> Foco</label>
+  <label><input type="CHECKBOX" value="2" name="but" class="check">   Conversação</label>
+  <label><input type="CHECKBOX" value="3" name="but" class="check">   Escutar</label>
+  <label><input type="CHECKBOX" value="4" name="but" class="check">   Dedicação</label>
+  <label>  Outro:</label>
+  <textarea placeholder="Digite aqui outra coisa que você deseja melhorar"></textarea>
+  <button id="submit">Enviar</button>
+</form>
+
+
+</html>
