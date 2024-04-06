@@ -4,10 +4,13 @@
     align-items: center;
     background-color: black;
     color: white;
-    
+    padding: 0px 450px;
+    text-align: center;
+
   }
   #welcome{
     font-family: sans-serif, Arial;
+
   }
   
 
@@ -28,9 +31,9 @@
     background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
   }
    #navbar {
-        
-        position: fixed;
+
         top: 0;
+        height: 5px;
         width: 100%; /* Define a largura para ocupar toda a largura da tela */
         background-color: black; /* Cor de fundo do navbar */
         color: #fff; /* Cor do texto do navbar */
@@ -71,6 +74,6 @@
     max-height: 80%;
   }
   h1{
-    font-size: 15;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
   }
